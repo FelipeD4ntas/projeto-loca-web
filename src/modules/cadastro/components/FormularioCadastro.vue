@@ -1,6 +1,6 @@
 <template>
   <v-row class="mt-9 card-container" justify="center">
-    <v-col class="card-form order-xl-last" xs="12" sm="12" md="12" lg="6" xl="6">
+    <v-col class="card-form custom-order-xl-last" xs="12" sm="12" md="12" lg="6" xl="6">
       <v-card flat border rounded class="custom-v-card-form">
         <v-card-text>
           <v-card-title class="text--primary titulo-login">Dados pessoais</v-card-title>
@@ -107,7 +107,7 @@
       </v-card>
     </v-col>
 
-    <v-col class="card-plano order-xl-first" xs="12" sm="12" md="12" lg="4" xl="3">
+    <v-col class="card-plano custom-order-xl-first" xs="12" sm="12" md="12" lg="4" xl="3">
       <v-card flat class="text-center pa-9 custom-v-card-plano-escolhido">
         <v-btn
          variant="flat"
@@ -493,11 +493,11 @@ export default {
 }
 
 @media(max-width: 1280px) {
-  .order-xl-last {
-    order: 0;
+  .custom-order-xl-first {
+    order: -1;
   }
 
-  .order-xl-last {
+  .custom-order-xl-last {
     order: 1;
   }
 }
