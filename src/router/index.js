@@ -7,7 +7,8 @@ const routes = [
   ...authRoutes,
   ...registerRoutes,
   ...dashboardRoutes,
-  { path: '', redirect: '/login' }
+  { path: '', redirect: '/login' },
+  { path: '/:catchAll(.*)', redirect: '/login' }
 ]
 
 const router = createRouter({
