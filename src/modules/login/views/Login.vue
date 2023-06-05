@@ -40,7 +40,7 @@
                 type="password"
                 :error-messages="passwordErrors">
               </v-text-field>
-              <v-btn variant="plain" flat class="float-right v-btn--no-padding v-btn--text-no-uppercase text-body-1 mt-n6">Esqueci minha senha</v-btn>
+              <v-btn variant="plain" flat class="float-right v-btn--no-padding v-btn--text-no-uppercase text-body-1 mt-n2">Esqueci minha senha</v-btn>
             </v-form>
           </v-card-text>
 
@@ -165,6 +165,7 @@ export default {
 .sub-titulo-login {
   font-size: 16px;
   font-weight: 500;
+  white-space: wrap;
   color: black !important;
 }
 
