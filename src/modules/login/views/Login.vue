@@ -1,6 +1,6 @@
 <template>
-  <v-row justify="center" align="center" class="h-screen">
-    <v-col xs="12" sm="6" md="4" lg="3" xl="3">
+  <v-row justify="center" align="center" class="h-screen custom-row-login">
+    <v-col xs="12" sm="6" md="4" lg="3" xl="3" >
       <v-card variant="text" class="ma-10 custom-ma">
         <v-img src="@/assets/logo.png" :width="200" class="custom-v-img"></v-img>
       </v-card>
@@ -153,6 +153,10 @@ export default {
 </script>
 
 <style>
+.custom-row-login {
+  overflow: auto;
+}
+
 .titulo-login {
   font-size: 29px;
   font-weight: 900;
