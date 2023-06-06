@@ -1,7 +1,7 @@
 <template>
   <v-row align-content="center" justify="center" class="mt-3">
     <v-col :class="{ 'custom-order': plano.maisUsado }" v-for="(plano, index) in planos" :key="index" xs="12" sm="12" md="12" lg="4" xl="4">
-      <v-card class="text-center pa-9 custom-v-card">
+      <v-card class="text-center custom-v-card">
         <v-btn
          variant="flat"
          rounded="lg"
