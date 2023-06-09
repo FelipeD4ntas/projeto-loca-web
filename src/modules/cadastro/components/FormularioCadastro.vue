@@ -499,6 +499,7 @@ export default {
 
   .custom-order-xl-last {
     order: 1;
+    flex-basis: auto !important;
   }
 }
 
